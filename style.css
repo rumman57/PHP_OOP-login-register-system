@@ -1,0 +1,85 @@
+body{
+	
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	margin: 0 auto;
+	width:1000px;
+}
+.header{
+  height: 100px;
+  margin-bottom: -30px;
+}
+.header h1{
+  text-align: center;
+  color: green;
+}
+.menu{
+  	
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.menu ul li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 160px;
+}
+.menu ul li a{
+	background:gray;
+	color: maroon;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+.menu ul li a:hover{
+	background: skyblue;
+}
+.content{
+
+}
+.content table{
+	margin-left: 300px;
+	margin-top: 20px;
+	text-align:center;
+}
+
+.content td{
+	font-weight: bold;
+}
+.content input{
+	height: 30px;
+	width:200px;
+}
+.chanPass {
+	height: 30px;
+	width:200px;
+	margin-top: 20px;
+}
+.content input[type ='submit']{
+	height: 30px;
+	width:200px;
+	margin-top: 20px;
+}
+.back{
+	margin-left: 575px;
+	margin-top: 40px;
+}
+.back input{
+	height: 30px;
+	width:100px;
+	color:green;
+	font-weight: bold;
+}
+.err{
+	color:red;
+}
